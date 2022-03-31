@@ -4,8 +4,9 @@
   "description": "Hi, i'm Humberto Ham, and this is my portfolio, i hope you like it",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev -H 0.0.0.0",
+    "dev": "next dev ",
     "build": "next build",
+    "start": "next start -p $PORT",
     "prettier": "prettier -write .",
     "lint": "next lint"
   },
