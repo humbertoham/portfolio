@@ -1,7 +1,7 @@
 {
   
   "version": "1.0.0",
-  "description": "Hi, i'm Humberto Ham, and this is my portfolio, i hope you like it",
+  "description": "Hi, i'm Humberto Ham, and this is my portfolio",
   "main": "index.js",
   "scripts": {
     "dev": "next dev ",

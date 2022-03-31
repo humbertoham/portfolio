@@ -1,17 +1,17 @@
 {
     "welcome": "Hola, soy Humberto Ham, y este es mi portafolio, espero que les guste <3",
     "about": "Acerca de mí",
-    "desc":"Empecé a programar a los 14 usando c++, a los 15 aprendí electrónica, c# y windows forms, y aprendí a usar microprocesadores creando un brazo robot, usé relevadores para hacerlo, tomé un pequeño descanso de mis estudios al respecto, y a los 17 empecé un curso de web development, y aquí estoy.",
+    "desc":"Empecé a programar aprendiendo c++ a los 14 años, luego empecé a aprender electrónica, c# y windows forms. Aprendí a usar microprocesadores creando un brazo robot usando relevadores. Hace 2 años empecé un curso de web development.",
     "abou":"Acerca de",
     "works":"Portafolio",
     "work":"Mi trabajo",
-    "paragraph":"He estado trabajando desde 2021, tengo experiencia creando web applications usando react, nextjs, y pienso que hago un muy buen trabajo, pueden ver lo que hago en la sección de mi portafolio, y les dijo mi cuenta de",
+    "paragraph":"He estado trabajando desde 2021, tengo experiencia creando web applications usando react, nextjs, pueden ver lo que hago en la sección de mi portafolio, y les dijo mi cuenta de",
     "portfolio":"Mi Portafolio",
     "born":"Nacido en Reynosa, Tamaulipas, México.",
     "major":"Empecé una licenciatura en matemáticas en la Universidad Aútonoma de Nuevo León.",
-    "freelance":"Empecé a trabajar como freelance desarrollando aplicaciones web.",
-    "fun":"Lo que hago por diversión",
-    "do":"Adoro jugar videojuegos, últimamente he estado jugando hollow kinight, adoro escuchar música, y también adoro ver películas es uno de mis hobbies favoritos.",
+    "freelance":"Empecé a trabajar como freelancer desarrollando aplicaciones web.",
+
+    "do":"Adoro jugar videojuegos, últimamente he estado jugando hollow knight. Amo escuchar música, también me gusta ver películas es uno de mis hobbies favoritos.",
     "repo":"Repositorio",
     "so":"Repositorio",
     "co":"Contacto",
@@ -30,9 +30,9 @@
     "pro":"programador",
     "tindog":"Hice esta landing page para un tinder para perros usando bootstrap, html y css, mientras estaba en el curso de desarrollo de páginas web.",
     "drumkit":"Mientras estaba en el curso de desarrollo de paginas web, usé esta práctica para aprender a como usar javascript y seleccionar un query y actualizar su estado.",
-    "simon":"Recuerdo se me dificultó un poco esta práctica, usé arreglos de javascript para hacer la lógica de este juego, y esta práctica es de cuando estaba aprendiendo a programar usando javascript.",
-    "movie":"Hice esta base de datos de películas para aprender a usar react y styled components, y también aprendí a hacer mis propios hooks. ",
+    "simon":"Usé arreglos de javascript para hacer la lógica de este juego. También usé query selectors para actualizar el estado de un query.",
+    "movie":"Hice esta base de datos de películas para aprender a usar react y styled components y también aprendí a hacer mis propios hooks. ",
     "tw":"Aprendí cómo hacer una full stack application, usando merng stack, mongodb, express, react, nodejs, and graphql.",
     "news":"Quise aprender cómo usar nextjs, entonces, hice una aplicación de noticias usando una api de noticias.",
-    "landing":"Quería hacer una landing page usando nextjs, y themeui, porque quería probrar mis habilidades."
+    "landing":"Quería hacer una landing page usando nextjs y themeui porque quería probrar mis habilidades."
 }

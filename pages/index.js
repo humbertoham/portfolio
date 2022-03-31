@@ -87,7 +87,7 @@ const Page = () => {
                 {t('born')}
 </BioSection>
  <BioSection>
-                <BioYear>2020</BioYear>
+                <BioYear>2020 - Present</BioYear>
                 {t('major')}
 </BioSection>
  <BioSection>
