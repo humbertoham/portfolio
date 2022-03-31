@@ -41,12 +41,18 @@ const Page = () => {
     return (
         <Layout>
         <Container maxW="container.xl">
-            <Box borderRadius="lg" bg={useColorModeValue('gray.200', 'whiteAlpha.200')} p={3} mb={6} align="center">
-                {t('welcome')}
-            </Box>
+            <div class="container">
+  <h2 class="title">
+    <span class="title-word title-word-1">{t('hi')} </span>
+    <span class="title-word title-word-2">{t('im')} </span>
+    <span class="title-word title-word-3">Humberto </span>
+    <span class="title-word title-word-4">Ham </span>
+ 
+  </h2>
+</div>
             <Box display={{md:'flex'}}>
                 <Box flexGrow={1}>
-                    <Heading as="h2" variant="page-tittle">
+                    <Heading as="h2" fontSize="24px" variant="page-tittle">
                         {t('about')}
                     </Heading>
                     <p>
@@ -108,6 +114,12 @@ const Page = () => {
                 <ListItem>
                 <Link href="/" target="_blank">
                     <Button variant="ghost" colorScheme="pink" leftIcon={<Icon as={IoLogoGithub}/>}>@humbertoham</Button>
+                </Link>
+                
+                </ListItem>
+ <ListItem>
+                <Link href="/" target="_blank">
+                    <Button variant="ghost" colorScheme="pink" leftIcon={<Icon as={IoLogoLinkedin}/>}>@humbertoham</Button>
                 </Link>
                 </ListItem>
             </List>

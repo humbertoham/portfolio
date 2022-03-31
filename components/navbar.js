@@ -90,7 +90,7 @@ const Navbar = props => {
             {t('works')}
             </LinkItem>
             <LinkItem href="/resume" path={path}>
-                Resume
+                Resumé
             </LinkItem>
             <LinkItem href="#contact">{t("co")}</LinkItem>
             </Stack>
@@ -118,7 +118,7 @@ const Navbar = props => {
                             </NextLink>
                             <NextLink href="/resume" passHref>
                                 <MenuItem as={Link}>
-                                    Resume
+                                    Resumé
                                 </MenuItem>
                                 
                             </NextLink>

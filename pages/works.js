@@ -6,6 +6,8 @@ import drumKit from '../public/images/works/drumkit.jpg'
 import simonGame from '../public/images/works/simongame.jpg'
 import reactMovies from '../public/images/works/reactmovie.jpg'
 import tw2 from '../public/images/works/tw2.jpg'
+import nextnews from '../public/images/works/nextnews.jpg'
+import nextlandingpage from '../public/images/works/nextlandingpage.jpg'
 import Section from '../components/section'
 import { AttachmentIcon } from '@chakra-ui/icons';
 import {
@@ -46,6 +48,44 @@ const Works = () =>{
 
             </Heading>
         <SimpleGrid  columns={[1,1,1]} gap={6}>
+            <Section delay={0.1}>
+                <WorkGridItem id="https://landingpage-omega-blush.vercel.app/" title="Next Landing Page" thumbnail={nextlandingpage}>
+                    <Badge m="2px" colorScheme="red">2022</Badge>
+                    <Badge m="2px" colorScheme="red">React</Badge>
+                    <Badge m="2px" colorScheme="red">NextJs</Badge>
+                   <Badge m="2px" colorScheme="red">ThemeUI</Badge>
+                   
+                   
+                   <Text m="8px" fontSize="md">{t("landing")}</Text>
+                   <Box align="left" >
+                    <a target="_blank" href="https://landingpage-omega-blush.vercel.app/" >
+                            <Button m="4px"  colorScheme="blue" leftIcon={<Icon as={AttachmentIcon}/>}>Next Landing Page</Button>
+                    </a>
+                    <a target="_blank" href="https://github.com/humbertoham/landingpage" >
+                    <Button m="4px" colorScheme="gray" leftIcon={<Icon as={IoLogoGithub}/>}>{t("repo")}</Button>
+                    </a>
+                </Box>
+                </WorkGridItem>
+            </Section>
+            <Section delay={0.1}>
+                <WorkGridItem id="https://nextnews-two.vercel.app/" title="Next News" thumbnail={nextnews}>
+                    <Badge m="2px" colorScheme="red">2022</Badge>
+                    <Badge m="2px" colorScheme="red">React</Badge>
+                    <Badge m="2px" colorScheme="red">NextJs</Badge>
+                   <Badge m="2px" colorScheme="red">NewsAPI</Badge>
+                   
+                   
+                   <Text m="8px" fontSize="md">{t("news")}</Text>
+                   <Box align="left" >
+                    <a target="_blank" href="https://nextnews-two.vercel.app/" >
+                            <Button m="4px"  colorScheme="blue" leftIcon={<Icon as={AttachmentIcon}/>}>Next News</Button>
+                    </a>
+                    <a target="_blank" href="https://github.com/humbertoham/nextnews" >
+                    <Button m="4px" colorScheme="gray" leftIcon={<Icon as={IoLogoGithub}/>}>{t("repo")}</Button>
+                    </a>
+                </Box>
+                </WorkGridItem>
+            </Section>
              <Section delay={0.1}>
                 <WorkGridItem id="https://stupefied-williams-6fd73c.netlify.app/" title="Twitter 2" thumbnail={tw2}>
                     <Badge m="2px" colorScheme="red">2022</Badge>
@@ -57,8 +97,8 @@ const Works = () =>{
                    <Badge m="2px" colorScheme="red">Graphql</Badge>
                    <Badge m="2px" colorScheme="red">Apollo</Badge>
                    <Badge m="2px" colorScheme="red">Semantic-ui</Badge>
-                   
-                   <Text m="8px" fontSize="md">desc</Text>
+ 
+                   <Text m="8px" fontSize="md">{t("tw")}</Text>
                    <Box align="left" >
                     <a target="_blank" href="https://stupefied-williams-6fd73c.netlify.app/" >
                             <Button m="4px"  colorScheme="blue" leftIcon={<Icon as={AttachmentIcon}/>}>Twitter 2</Button>
@@ -78,13 +118,13 @@ const Works = () =>{
                     <Badge m="2px" colorScheme="red">MovieDBAPi</Badge>
                     <Badge m="2px" colorScheme="red">React</Badge>
                     <Badge m="2px" colorScheme="red">StyledComponents</Badge>
-                     <Text m="8px" fontSize="md">desc</Text>
+                     <Text m="8px" fontSize="md">{t("movie")}</Text>
                   <Box align="left" >
                     <a target="_blank" href="https://thirsty-thompson-1e6f20.netlify.app/" >
                             <Button m="4px" colorScheme="blue" leftIcon={<Icon as={AttachmentIcon}/>}>React Movies</Button>
                     </a>
                     
-                    <a target="_blank" href="https://github.com/humbertoham/ReactMB.github.io" >
+                    <a target="_blank" href="https://github.com/humbertoham/ReactMovies" >
                     <Button m="4px" colorScheme="gray" leftIcon={<Icon as={IoLogoGithub}/>}>{t("repo")}</Button>
                     </a>
                 </Box>
@@ -97,7 +137,8 @@ const Works = () =>{
                     <Badge m="2px" colorScheme="red">css</Badge>
                     <Badge m="2px" colorScheme="red">JavaScript</Badge>
                     <Badge m="2px" colorScheme="red">Jquery</Badge>
-                     <Text m="8px" fontSize="md">desc</Text>
+                     <Text m="8px" fontSize="md">{t("simon")}</Text>
+                 
                     <Box align="left" >
                     <a target="_blank" href="https://humbertoham.github.io/simon-game-/" >
                             <Button m="4px" colorScheme="blue" leftIcon={<Icon as={AttachmentIcon}/>}>Simon Game</Button>
@@ -117,7 +158,7 @@ const Works = () =>{
                     <Badge m="2px" colorScheme="red">css</Badge>
                     <Badge m="2px" colorScheme="red">JavaScript</Badge>
                     <Badge m="2px" colorScheme="red">Jquery</Badge>
-                     <Text m="8px" fontSize="md">desc</Text>
+                     <Text m="8px" fontSize="md">{t("drumkit")}</Text>
                    <Box align="left" >
                     <a target="_blank" href="https://humbertoham.github.io/drum-kit/" >
                             <Button m="4px" colorScheme="blue" leftIcon={<Icon as={AttachmentIcon}/>}>Drum Kit</Button>
@@ -135,7 +176,7 @@ const Works = () =>{
                     <Badge m="2px" colorScheme="red">html</Badge>
                     <Badge m="2px" colorScheme="red">css</Badge>
                     <Badge m="2px" colorScheme="red">bootstrap</Badge>
-                     <Text m="8px" fontSize="md">desc</Text>
+                     <Text m="8px" fontSize="md">{t("tindog")}</Text>
                    <Box align="left" >
                     <a target="_blank" href="https://humbertoham.github.io/tindog//" >
                             <Button m="4px" colorScheme="blue" leftIcon={<Icon as={AttachmentIcon}/>}>Tindog</Button>

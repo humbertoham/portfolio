@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
 import { Flex, Box, useColorMode, IconButton, Heading, FormControl, FormLabel, Input, Button, Textarea, useColorModeValue } from "@chakra-ui/react"
 import { ArrowRightIcon } from "@chakra-ui/icons"
-require("dotenv").config();
+
+
 import emailjs from 'emailjs-com';
 import i18n from "i18next";
 import { useTranslation, initReactI18next } from "react-i18next";

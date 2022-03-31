@@ -21,7 +21,7 @@ export const GridItem = ({children, href, title, thumbnail}) => (
 )
 
 export const WorkGridItem = ({children, id, title, thumbnail}) => (
-    <Box w="100%" bg={useColorModeValue('#fff', '#202023')} borderRadius="16px" boxShadow='xl' p='6' align="center" mb="10px" >
+    <Box w="100%" bg={useColorModeValue('#fff', '#202023')} borderRadius="16px" boxShadow='0px 2px 5px 2px rgba(0,0,0,0.31)' p='6' align="center" mb="10px" >
         
             <LinkBox cursor="pointer">
                 <a target="_blank" href={id}>
