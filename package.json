@@ -1,7 +1,7 @@
 {
-  "name": "Humberto Ham Portfolio",
+  
   "version": "1.0.0",
-  "description": "Hi, i'm Humberto Ham, and this is my portfolio, i hope you like it <3",
+  "description": "Hi, i'm Humberto Ham, and this is my portfolio, i hope you like it",
   "main": "index.js",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
