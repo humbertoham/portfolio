@@ -30,7 +30,7 @@
     "pro":"programmer",
     "tindog":"I made this landing page for a tinder for dogs using bootstrap, html and css while i was on a web development course.",
     "drumkit":"While i was on a web development course, i used this practice to learn how to use javascript, select a query and update his state. ",
-    "simon":"I used javascript arrays to make the logic of this game. I also used query selectors to update the state of the query.",
+    "simon":"I used javascript arrays and query selectors to make the logic of this game.",
     "movie":"I made this movie database app to learn how to use react and styled components, i also know how to make my own hooks.",
     "tw":"I know how to make a full stack application, using a merng stack, mongodb, express, react, nodejs, and graphql.",
     "news":"I wanted to learn how to use nextjs, so, i made a news app using the news api.",
