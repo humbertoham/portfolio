@@ -112,13 +112,13 @@ const Page = () => {
             </Heading>
             <List>
                 <ListItem>
-                <Link href="/" target="_blank">
+                <Link href="https://github.com/humbertoham" target="_blank">
                     <Button variant="ghost" colorScheme="pink" leftIcon={<Icon as={IoLogoGithub}/>}>@humbertoham</Button>
                 </Link>
                 
                 </ListItem>
  <ListItem>
-                <Link href="/" target="_blank">
+                <Link href="https://www.linkedin.com/in/humberto-ham-dur%C3%A1n-447470233/" target="_blank">
                     <Button variant="ghost" colorScheme="pink" leftIcon={<Icon as={IoLogoLinkedin}/>}>@humbertoham</Button>
                 </Link>
                 </ListItem>
